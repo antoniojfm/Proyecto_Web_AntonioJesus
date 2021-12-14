@@ -1,0 +1,754 @@
+.Contenido{
+    margin: 0 auto;
+    padding: 0;
+    width:100%;
+}
+
+header{
+    height:200px;
+}
+
+header #Imagen{
+    float:left;
+    width:250px;
+    height:200px;
+}
+
+header #Titulo_Web{
+    margin: 0 auto;
+    color:#336768;
+    text-align:center;
+    width:65%;
+}
+
+header #Titulo_Web span{
+    font-family: 'Fredoka One';
+    letter-spacing:3px;
+    font-size:50px;
+}
+
+header #Titulo_Web h3{
+    font-family: 'Fredoka One';
+    line-height:1px;
+    margin-bottom:3%;
+}
+
+.Menu{
+    list-style:none;
+    padding:0;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.Menu li{
+    display:inline-block;
+    padding: 1% 3% 1% 3%;
+}
+
+.Menu li a{
+    text-decoration:none;
+    color:black;
+    font-family:'Roboto Mono', monospace;
+    font-size:15px;
+}
+
+.Menu li:hover{
+    background-color:#336768;
+    box-shadow: 0 2px 7px 1px #83bae0;
+}
+
+.Menu li a:hover{
+    color:white;
+}
+
+.Menu .Activo:nth-of-type(1){
+    background-color:#336768;
+}
+
+.Menu .Activo:nth-of-type(2){
+    background-color:#336768;
+}
+
+.Menu .Activo:nth-of-type(3){
+    background-color:#336768;
+}
+
+.Menu .Activo:nth-of-type(4){
+    background-color:#336768;
+}
+
+h1{
+    padding-top:5%;
+    text-align: center;
+    font-family:'Roboto Mono', monospace;
+}
+
+#Lista_Imagenes{
+    width:100%;
+    height:600px;
+}
+
+.Slider{
+    list-style:none;
+    width:40%;
+    height:500px;
+    padding:0;
+    margin:0 auto;
+}
+
+.Slider li{
+    position:absolute;
+    width:inherit;
+    height:inherit;
+    opacity:0;
+}
+
+.Slider li img{
+    width:100%;
+    height:100%;
+}
+
+.Slider li:first-child{
+    opacity:1;
+}
+
+.Slider li:target{
+    opacity:1;
+}
+
+#Botones_Imagenes{
+    width:100%;
+}
+
+.Enlaces_Slider{
+    text-align: center;
+    margin: 1%;
+    padding: 0;
+}
+
+.Enlaces_Slider li{
+    display:inline-block;
+    background-color:#3d3a3a;
+    padding:0.5% 1% 0.5% 1%;
+    margin:0.5%;
+    border-radius:50%;
+}
+
+.Enlaces_Slider li:hover{
+    background-color:#336768;
+}
+
+.Enlaces_Slider li a{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    padding:10px;
+    width:20px;
+    height:20px;
+    font-size:20px;
+}
+
+.Localizacion{
+    width:99%;
+    height:600px;
+}
+
+#sitio{
+    position:absolute;
+    width:99%;
+    height:600px;
+    border:0;
+}
+
+#Nombre_Lugar{
+    max-width:25%;
+    position:relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    left:29%;
+    top:40%;
+    transform: translate(35%,95%);
+    background-color: white;
+    border-radius: 8px;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+    box-shadow: 0 2px 7px 1px rgba(0,0,0,0.3);
+    font-family:'Roboto Mono', monospace;
+}
+
+#Nombre_Lugar a{
+    text-decoration:none;
+    color:black;
+}
+
+.Contacto{
+    margin-top:3%;
+    width:100%;
+    font-size:15px;
+    font-family:'Roboto Mono', monospace;
+    color:black;
+    background-color:#39729b;
+}
+
+.Formulario{
+    float:left;
+    text-align:center;
+    width:20%;
+    padding:2%;
+}
+
+.Formulario input{
+    margin: 1%;
+    
+}
+
+.Formulario button{
+    padding:1%;
+    margin:8%;
+}
+
+.Formulario button:hover{
+    background-color:#39729b;
+}
+
+#Datos{
+    float: right;
+    width: 35%;
+}
+
+#Datos p a{
+    text-decoration:none;
+    color:black;
+}
+
+#Datos p a:hover{
+    color:#ffffff;
+}
+
+#Datos p img{
+    width:30px;
+    height:30px;
+}
+
+footer{
+    text-align:center;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:70px;
+    border-top: 2px solid black;
+}
+
+footer #Politica{
+    margin-left:10px;
+}
+
+footer .Redes_Sociales{
+    list-style:none;
+    width:20%;
+    padding:0;
+    margin:auto;
+}
+
+footer .Redes_Sociales li{
+    display: inline-block;
+}
+
+footer .Redes_Sociales li img{
+    width:40px;
+    height:40px;
+}
+
+footer #Copyright{
+    margin-right:10px;
+}
+
+#Info_Empresa{
+    width:100%;
+    margin-top:5%;
+    background-image: url(img/taller_maquinaria.jpg);
+    background-size: 100% 100%;
+}
+
+#Info_Empresa p{
+    font-size:20px;
+    color: rgb(0, 0, 0);
+    font-family:'Roboto Mono', monospace;
+    padding: 15% 10% 15% 10%;
+}
+
+#Servicios{
+    width:100%;
+    background-color:#83bae0;
+    margin-top:5%;
+}
+
+#Servicios p{
+    font-size:16px;
+    font-family:'Roboto Mono', monospace;
+    padding: 0.5% 10% 0.5% 10%;
+}
+
+.Proyectos{
+    width:90%;
+}
+
+.Proyectos ul{
+    width:500%;
+    list-style:none;
+    padding:0;
+    display:flex;
+    animation: slide 10s infinite alternate;
+    animation-timing-function: ease-in;
+}
+
+.Proyectos ul li{
+    padding-left:6%;
+    width:100%;
+}
+
+.Proyectos li figure{
+    width:70%;
+}
+
+.Proyectos li figure img{
+    width:100%;
+    height:400px;
+}
+
+.Proyectos li figure figcaption{
+    font-size:15px;
+    font-family:'Roboto Mono', monospace;
+    text-align: center;
+}
+
+@keyframes slide{
+    0%{margin-left:0;}
+    20%{margin-left:0;}
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+    75%{margin-left:-300%;}
+    85%{margin-left:-300%;}
+    90%{margin-left:-400%;}
+    100%{margin-left:-400%;}
+}
+
+.Proyectos ul li figure #Yantar{
+    height:400px;
+}
+
+.Clientes{
+    width:100%;
+}
+
+.Clientes ul{
+    list-style:none;
+    padding:0;
+}
+
+.Clientes ul li{
+    display:inline-block;
+    padding:3.3%;
+}
+
+.Clientes ul li img{
+    width:80%;
+}
+
+.Clientes ul li:nth-of-type(7){
+    width:12%;
+}
+
+.Clientes ul li:nth-of-type(8){
+    width:18%;
+}
+
+@media (max-width:1300px){
+
+    header #Imagen{
+        width:200px;
+        height:150px;
+    }
+
+    header #Titulo_Web span{
+        font-family: 'Fredoka One';
+        letter-spacing:3px;
+        font-size:40px;
+    }
+
+    #Lista_Imagenes{
+        width:100%;
+        height:600px;
+    }
+
+    .Slider li img{
+        width:100%;
+        height:400px;
+        background-position:center;
+        background-size: cover;
+    }
+
+    #Botones_Imagenes{
+        position: relative;
+        bottom: 16%;
+        width: 100%;
+    }
+}
+
+@media (max-width:1100px){
+
+    header #Imagen{
+        width:200px;
+        height:150px;
+    }
+
+    header #Titulo_Web span{
+        font-family: 'Fredoka One';
+        letter-spacing:3px;
+        font-size:30px;
+    }
+
+    #Lista_Imagenes{
+        width:100%;
+        height:500px;
+    }
+
+    .Slider li img{
+        width:100%;
+        height:350px;
+        background-position:center;
+        background-size: cover;
+    }
+
+    #Botones_Imagenes{
+        position: relative;
+        bottom: 25%;
+        width: 100%;
+    }
+
+    #Nombre_Lugar{
+        transform: translate(35%,75%);
+    }
+
+    .Proyectos li figure img{
+        width:100%;
+        height:350px;
+    }
+
+    .Proyectos ul li figure #Yantar{
+        height:300px;
+    }
+}
+
+
+@media (max-width:980px){
+
+    header #Imagen{
+        width:170px;
+        height:120px;
+    }
+
+    header #Titulo_Web{
+        margin: 0 auto;
+        color:#336768;
+        text-align:center;
+        width:65%;
+    }
+
+    #Titulo_Web span{
+        font-family: 'Fredoka One';
+        letter-spacing:3px;
+        font-size:25px;
+    }
+
+    .Menu{
+        list-style:none;
+        padding:0;
+        text-align:center;
+        margin: 0 auto;
+    }
+
+    .Menu li{
+        display:inline-block;
+        padding: 1% 3% 1% 3%;
+    }
+
+    #Lista_Imagenes{
+        width:100%;
+        height:400px;
+    }
+
+    .Slider li img{
+        width:100%;
+        height:300px;
+        background-position:center;
+        background-size: cover;
+    }
+
+    .Enlaces_Slider{
+        text-align:center;
+        margin: 1% 1.5% 0% 0%;
+    }
+    
+    .Enlaces_Slider li{
+        display:inline-block;
+        background-color:#336768;
+    }
+
+    #Botones_Imagenes{
+        position: relative;
+        bottom: 48%;
+        width: 100%;
+    }
+
+    #Nombre_Lugar{
+        transform: translate(35%,75%);
+    }
+
+    .Enlaces_Slider li{
+        background-color:#3d3a3a;
+    }
+    
+    .Enlaces_Slider li a{
+        color:rgb(255, 255, 255);
+    }
+
+    .Proyectos li figure img{
+        width:100%;
+        height:300px;
+    }
+}
+
+@media (max-width:850px){
+
+    header #Logo{
+        width:170px;
+        height:120px;
+        margin-left:40%;
+    }
+
+    header #Titulo_Web{
+        color: #336768;
+        text-align: center;
+        width: 100%;
+    }
+
+    #Titulo_Web span{
+        font-family: 'Fredoka One';
+        letter-spacing:3px;
+        font-size:25px;
+    }
+
+    .Menu{
+        list-style:none;
+        padding:0;
+        text-align:center;
+        margin: 0 auto;
+    }
+
+    .Menu li{
+        display:inline-block;
+        padding: 1% 1% 1% 1%;
+    }
+
+    .Proyectos li figure img{
+        width:100%;
+        height:250px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        height:500px;
+        margin-bottom:20%;
+    }
+
+    header #Imagen{
+        width:220px;
+        height:170px;
+    }
+
+    header a{
+        margin: 0 auto;
+    }
+
+    header #Titulo_Web{
+        color: #336768;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        padding-top:10%;
+        
+    }
+
+    #Titulo_Web span{
+        font-family: 'Fredoka One';
+        letter-spacing:3px;
+        font-size:30px;
+    }
+
+    .Menu{
+        list-style:none;
+        width:100%;
+        text-align:center;
+        margin: 0 auto;
+        padding-top:15%;
+    }
+
+    .Menu li{
+        display:inline-block;
+        padding: 1% 3% 1% 3%;
+    }
+
+    #Lista_Imagenes{
+        width:100%;
+        height:400px;
+    }
+
+    .Slider li img{
+        width:100%;
+        height:250px;
+    }
+
+    #Botones_Imagenes{
+        position: relative;
+        bottom: 60%;
+        width: 100%;
+    }
+
+    #sitio{
+        position:relative;
+        width:99%;
+        height:600px;
+        border:0;
+        bottom:0;
+    }
+
+    #Nombre_Lugar{
+        position:absolute;
+        margin:152% auto;
+    }
+
+    #Servicios p:nth-of-type(4){
+        font-size:16px;
+        font-weight:bolder;
+        border: 3px solid black;
+        padding:5%;
+    }
+
+}
+
+@media (max-width:500px){
+
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        height:500px;
+        margin-bottom:20%;
+    }
+
+    header #Imagen{
+        width:220px;
+        height:170px;
+    }
+
+    header a{
+        margin: 0 auto;
+    }
+
+    header #Titulo_Web{
+        color: #336768;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        padding-top:10%;
+        
+    }
+
+    #Titulo_Web span{
+        font-family: 'Fredoka One';
+        letter-spacing:3px;
+        font-size:30px;
+    }
+
+    .Menu{
+        list-style:none;
+        width:100%;
+        text-align:center;
+        margin: 0 auto;
+        padding-top:15%;
+    }
+
+    .Menu li{
+        display:block;
+        padding: 1% 0% 1% 0%;
+        width:100%;
+    }
+
+    #Lista_Imagenes{
+        width:100%;
+        height:400px;
+    }
+
+    .Slider li img{
+        width:100%;
+        height:200px;
+    }
+
+    #Botones_Imagenes{
+        position: relative;
+        bottom: 70%;
+        left:1.5%;
+        width: 100%;
+    }
+
+    #Nombre_Lugar{
+        position:absolute;
+        margin:215% auto;
+    }
+    
+    .Contacto{
+        font-size:12px;
+    }
+
+    footer .Redes_Sociales li img{
+        width:33px;
+        height:33px;
+    }
+
+    #Info_Empresa p{
+        font-size:15px;
+        font-weight:bolder;
+    }
+
+    #Info_Empresa{
+        background-image: url(img/taller_maquinaria.jpg);
+        background-size: 100% 100%;
+    }
+
+    #Servicios p:nth-of-type(4){
+        font-size:16px;
+        font-weight:bolder;
+        border: 3px solid black;
+        padding:5%;
+    }
+
+    .Proyectos ul li figure #Yantar{
+        height:150px;
+    }
+
+    .Proyectos li figure img{
+        width:100%;
+        height:200px;
+    }
+
+}
